@@ -1,4 +1,4 @@
-import { Product } from "@/app/src/schemas"
+import { Product } from "../../src/schemas"
 import Image from "next/image"
 import { formatCurrency, getImagePath, isAvailable } from '../../src/utils';
 import Link from "next/link";

@@ -1,5 +1,6 @@
-import ProductCart from "@/app/components/products/ProductCart";
-import { CategoryWithProductsResponseSchema } from "@/app/src/schemas";
+export const dynamic = "force-dynamic";
+import ProductCart from "../../../app/components/products/ProductCart";
+import { CategoryWithProductsResponseSchema } from "../../../app/src/schemas";
 import { redirect } from "next/navigation";
 import React from "react";
 

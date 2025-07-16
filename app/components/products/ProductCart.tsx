@@ -1,4 +1,4 @@
-import { Product } from "@/app/src/schemas";
+import { Product } from "../../src/schemas";
 import React from "react";
 import { formatCurrency, getImagePath, isAvailable } from "../../src/utils";
 import Image from "next/image";

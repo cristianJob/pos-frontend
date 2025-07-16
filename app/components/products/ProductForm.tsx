@@ -1,4 +1,5 @@
-import { CategoryResponseSchema, Product } from "@/app/src/schemas"
+export const dynamic = "force-dynamic";
+import { CategoryResponseSchema, Product } from "../../src/schemas"
 import UploadProductImage from "./UploadProductImage"
 
 const getCategories = async () => {

@@ -1,5 +1,5 @@
-import { submitOrderAction } from "@/actions/submit-order-action";
-import { useStore } from "@/app/src/store";
+import { submitOrderAction } from "../../../actions/submit-order-action";
+import { useStore } from "../../../app/src/store";
 import React, { useActionState, useEffect } from "react";
 import { toast } from 'react-toastify';
 

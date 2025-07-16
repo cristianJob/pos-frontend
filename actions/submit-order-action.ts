@@ -1,6 +1,6 @@
 'use server'
 
-import { ErrorResponseSchema, OrderSchema, SuccessResponseSchema } from "@/app/src/schemas"
+import { ErrorResponseSchema, OrderSchema, SuccessResponseSchema } from "../app/src/schemas"
 import { revalidatePath } from "next/cache";
 
 

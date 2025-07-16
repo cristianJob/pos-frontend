@@ -5,7 +5,7 @@ import Calendar from "react-calendar";
 import 'react-calendar/dist/Calendar.css';
 import { format } from "date-fns"
 import { useQuery } from "@tanstack/react-query";
-import { getSalesByDate } from "@/app/src/api";
+import { getSalesByDate } from "../../src/api";
 import TransactionSummary from "./transactionSummary";
 import { formatCurrency } from '../../src/utils';
 

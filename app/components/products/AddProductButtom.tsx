@@ -1,8 +1,8 @@
 "use client";
 
-import { Product } from "@/app/src/schemas";
+import { Product } from "../../../app/src/schemas";
 import React from "react";
-import { useStore } from "@/app/src/store";
+import { useStore } from "../../../app/src/store";
 
 const AddProductButtom = ({product}: {product: Product}) => {
     const addToCart = useStore((state) => state.addToCart);

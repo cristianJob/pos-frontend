@@ -1,5 +1,5 @@
-import { Transaction } from "@/app/src/schemas";
-import { formatCurrency, getImagePath } from "@/app/src/utils";
+import { Transaction } from "../../src/schemas";
+import { formatCurrency, getImagePath } from "../../src/utils";
 import Image from "next/image";
 
 export default function TransactionSummary({ transaction }: { transaction: Transaction }) {

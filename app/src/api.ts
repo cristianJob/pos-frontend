@@ -5,7 +5,6 @@ export const getSalesByDate = async (date: string) => {
     console.log(url)
     const req = await fetch(url);
     const response = await req.json();
-    console.log("src/api getsalesbtdate",response)
     const transactions = TransactionsResponseSchema.parse(response);
         return transactions
     }

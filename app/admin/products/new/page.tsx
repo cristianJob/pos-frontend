@@ -1,6 +1,7 @@
-import AddProductForm from '@/app/components/products/AddProductForm'
-import ProductForm from '@/app/components/products/ProductForm'
-import Heading from '@/app/components/ui/Heading'
+export const dynamic = "force-dynamic";
+import AddProductForm from '../../../components/products/AddProductForm'
+import ProductForm from '../../../components/products/ProductForm'
+import Heading from '../../../components/ui/Heading'
 import Link from 'next/link'
 import React from 'react'
 

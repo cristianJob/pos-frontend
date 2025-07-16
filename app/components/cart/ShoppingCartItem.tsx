@@ -1,7 +1,7 @@
-import { CartItem } from "@/app/src/schemas";
+import { CartItem } from "../../../app/src/schemas";
 import Image from "next/image";
 import { formatCurrency, getImagePath } from '../../src/utils';
-import { useStore } from "@/app/src/store";
+import { useStore } from "../../../app/src/store";
 
 export default function ShoppingCartItem({item}: {item: CartItem}) {
     const updateQuantity = useStore((state) => state.updateQuantity);

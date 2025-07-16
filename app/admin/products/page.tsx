@@ -1,8 +1,9 @@
-import ProductsTable from "@/app/components/products/ProductsTable";
-import Heading from "@/app/components/ui/Heading";
-import Pagination from "@/app/components/ui/Pagination";
-import { ProductsResponseSchema } from "@/app/src/schemas";
-import { isValidPage } from "@/app/src/utils";
+export const dynamic = "force-dynamic";
+import ProductsTable from "../../../app/components/products/ProductsTable";
+import Heading from "../../../app/components/ui/Heading";
+import Pagination from "../../../app/components/ui/Pagination";
+import { ProductsResponseSchema } from "../../../app/src/schemas";
+import { isValidPage } from "../../../app/src/utils";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import React from "react";

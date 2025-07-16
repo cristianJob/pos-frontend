@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logo from "./Logo";
-import { CategoryResponseSchema } from "@/app/src/schemas";
+import { CategoryResponseSchema } from "../../src/schemas";
 
 async function getCategories() {
   const url = `${process.env.API_URL}/categories`;

@@ -1,7 +1,7 @@
 "use client"
 
-import uploadImage from '@/actions/upload-image-action'
-import { getImagePath } from '@/app/src/utils'
+import uploadImage from '../../../actions/upload-image-action'
+import { getImagePath } from '../../src/utils'
 import Image from 'next/image'
 import React, { useCallback, useState } from 'react'
 import { useDropzone } from 'react-dropzone'

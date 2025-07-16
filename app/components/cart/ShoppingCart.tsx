@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { useStore } from '@/app/src/store'
+import { useStore } from '../../src/store'
 import ShoppingCartItem from './ShoppingCartItem';
 import Amount from './Amount';
 import CouponForm from './CouponForm';

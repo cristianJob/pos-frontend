@@ -5,11 +5,17 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "http",
-        hostname: process.env.DOMAIN!
+        hostname: process.env.DOMAIN || 'localhost'
       },
       {
         protocol: "https",
         hostname: 'res.cloudinary.com'
+      },
+      {
+        protocol: "http",
+        hostname: "backend",
+        port: '3000',
+        pathname: '/img/**',
       }
     ]
   }

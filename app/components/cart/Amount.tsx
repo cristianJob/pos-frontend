@@ -1,4 +1,4 @@
-import { formatCurrency } from "@/app/src/utils";
+import { formatCurrency } from "../../src/utils";
 
 type AmountProps = {
   label: string

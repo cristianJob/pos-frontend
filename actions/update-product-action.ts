@@ -1,6 +1,6 @@
 "use server";
 
-import { ErrorResponseSchema, Product, ProductFormSchema } from "@/app/src/schemas";
+import { ErrorResponseSchema, Product, ProductFormSchema } from "../app/src/schemas";
 
 type ActionStateType = {
   errors: string[];

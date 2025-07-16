@@ -1,9 +1,8 @@
-import { useStore } from "@/app/src/store"
+import { useStore } from "../../../app/src/store"
 
 export default function CouponForm() {
     const applyCoupon = useStore((state) => state.applyCoupon);
     const coupon = useStore((state) => state.coupon);
-    const discount = useStore((state) => state.discount);
 
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
